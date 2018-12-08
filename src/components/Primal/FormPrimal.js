@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import TextLine from './TextLine';
 import TextColumn from './TextColumn';
 
-
 class FormPrimal extends Component {
 
     constructor(){

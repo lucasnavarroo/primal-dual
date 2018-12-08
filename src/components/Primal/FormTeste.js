@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class FormTeste extends React.Component {
 
     constructor(props){
@@ -28,10 +27,10 @@ class FormTeste extends React.Component {
         return(
             <div>
                 <h1>Mensagem</h1>
-                <input type="text" 
+                <input type="number" 
                     name="nome"      placeholder="Nome"      
                     onChange={(e) => this.handleChange(e, "nome")}/>
-                <input type="text" 
+                <input type="number" 
                     name="sobrenome" placeholder="Sobrenome" 
                     onChange={(e) => this.handleChange(e, "sobrenome")}/>
                 <button onClick={this.submit} >Submit</button>

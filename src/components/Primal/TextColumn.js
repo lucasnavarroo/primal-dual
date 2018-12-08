@@ -88,6 +88,7 @@ class TextColumn extends React.Component {
                     </select>
                     
                     <TextField
+                        disabled = "true"
                         margin="normal"
                         variant="outlined"
                         label={`Resultado`}
