@@ -8,8 +8,8 @@ export class TransformacaoDualidade{
     constructor(matriz: any[][], tipo: String){
         console.log("PRIMAL: ");
         var primal = new Primal(matriz, tipo);
-        console.log(tipo)
-        console.log(matriz)
+        console.log(tipo);
+        console.log(matriz);
 
         console.log("DUAL: \n")
         var dual = new Dual(primal);
