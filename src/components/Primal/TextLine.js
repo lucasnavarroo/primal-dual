@@ -30,6 +30,7 @@ class TextLine extends React.Component {
       postVal: ""
     });
   }
+  
   prependData() {
     this.displayData.unshift(
       <div id="display-data">
@@ -41,6 +42,7 @@ class TextLine extends React.Component {
       postVal: ""
     });
   }
+
   handleChange(e) {
     let getTextAreaValue = e.target.value;
     this.setState({
@@ -50,8 +52,8 @@ class TextLine extends React.Component {
 
   render() {
     return (
-        <div style={{ margin: 5 }}>
-          <div >{this.displayData}</div>
+        <div>
+          <div>{this.displayData}</div>
 
           <Button
             variant="contained"
