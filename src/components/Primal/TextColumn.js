@@ -57,6 +57,7 @@ class TextColumn extends React.Component {
                     direction="row"
                     justify="center"
                     alignItems="center"
+                    spacing={16}
                 >
                     <TextField
                         margin="normal"
