@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Grid, TextField } from '@material-ui/core';
 
-
 class TextColumn extends React.Component {
     constructor() {
         super();
@@ -89,7 +88,6 @@ class TextColumn extends React.Component {
                     </select>
                     
                     <TextField
-                        disabled = "true"
                         margin="normal"
                         variant="outlined"
                         label={`Resultado`}
